@@ -17,7 +17,20 @@ Execute it and enter the decryption key and we get the flag.
 There are few option to choose from but when we tried to choose the option 5 (cd <dirname>) it seems it doesn’t work at all.
 ![image](https://user-images.githubusercontent.com/83162708/184399448-ffc7bf05-13e8-46b3-a0e4-502a68949c72.png)
 
+However something is interesting, which is option 2 cat ./name
+I google search and found this, which means we can cat multiple files although they are from different directory
+
+![image](https://user-images.githubusercontent.com/83162708/184399730-bdde37fb-01ff-439e-92ae-66ce58df0a4e.png)
+Execute!
   
-  
+I tried:
+qwe ; cat /home/ctf/Xxp80wAmE2bfwc3LYwvPelKScG2TAczo/flag.txt
+qwe ; cat /home/ctf/flags.txt
+qwe ; cat /home/ctf/flag.txt (This work!)
+
+![image](https://user-images.githubusercontent.com/83162708/184399872-7e05f484-4f5c-497e-99e0-4c67234565f7.png)
+
+
+
   
 
